@@ -3272,4 +3272,4 @@ if (typeof CanvasRenderingContext2D != 'undefined') {
   }
 }
 
-module.exports = canvg;
+
