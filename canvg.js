@@ -1,5 +1,8 @@
 
 
+var isNode = (typeof module !== 'undefined' && module.exports && typeof window === 'undefined'),
+  nodeEnv = isNode;
+
 var jsdom, windowEnv;
 
 if (nodeEnv) {
